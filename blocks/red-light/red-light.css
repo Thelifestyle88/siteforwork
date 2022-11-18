@@ -1,0 +1,18 @@
+.red-light {
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    left: -102px;
+    top: 251px;
+    border-radius: 50%;
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+    z-index: -1;
+}
+
+@media screen and (max-width: 720px) {
+    .red-light {
+    display: none;
+ }
+ }

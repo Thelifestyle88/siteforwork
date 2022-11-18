@@ -1,0 +1,14 @@
+.footer__social-links {
+    margin: 12px 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 13.65px;
+}
+
+@media screen and (max-width: 720px) {
+    .footer__social-links { 
+    justify-content: flex-start;
+ }
+ }

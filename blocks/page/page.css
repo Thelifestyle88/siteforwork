@@ -1,0 +1,10 @@
+.page {
+    background: #0E1014;
+    color: #E4E5EA;
+    font-family: "Inter", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    border: .001px solid black;
+}

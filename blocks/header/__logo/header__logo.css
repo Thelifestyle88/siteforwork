@@ -1,0 +1,11 @@
+.header__logo {
+    max-width: 165px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 720px) {
+    .header__logo { 
+     display: none;
+ }
+ }

@@ -1,0 +1,37 @@
+.consultation__cards-title {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.consultation__cards-title::before {
+    font-weight: 500;
+    content: 'вместе с ';
+    -webkit-text-fill-color: #E4E5EA;
+    text-transform: lowercase;
+}
+.consultation__cards-title::first-letter {
+    text-transform: uppercase;
+}
+
+.consultation__cards-title::after {
+    font-weight: 500;
+    content: ' мы дарим:';
+    -webkit-text-fill-color: #E4E5EA;
+    text-transform: lowercase;
+}
+
+@media screen and (max-width: 720px) {
+    .consultation__cards-title { 
+    text-align: left;
+ }
+}

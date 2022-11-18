@@ -1,0 +1,14 @@
+.comercial {
+   max-width: 362px;
+   display: flex;
+   flex-direction: column;
+}
+
+@media screen and (max-width: 720px) {
+   .comercial {
+   width: 90%; 
+   margin: 95px auto 0;
+   max-width: 100%;
+   align-items: flex-start;
+}
+}

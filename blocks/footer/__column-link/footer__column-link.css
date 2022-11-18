@@ -1,0 +1,16 @@
+.footer__column-link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #E4E5EA;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+@media screen and (max-width: 720px) {
+    .footer__column-link { 
+        font-size: 14px;
+        line-height: 17px;
+ }
+ }

@@ -1,0 +1,10 @@
+.consultation__card {
+    max-width: 130px;
+}
+
+@media screen and (max-width: 720px) {
+    .consultation__card { 
+    text-align: left;
+    max-width: 100%;
+ }
+}

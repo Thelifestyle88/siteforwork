@@ -1,0 +1,12 @@
+.footer__contacts {
+    grid-area: contacts;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 720px) {
+    .footer__contacts { 
+        text-align: left;
+ }
+ }

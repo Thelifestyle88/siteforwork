@@ -1,0 +1,13 @@
+.consultation {
+    max-width: 315px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 720px) {
+    .consultation {
+    width: 90%;
+    max-width: 100%;
+    margin: 45px auto 0;
+ }
+ }

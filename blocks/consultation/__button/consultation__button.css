@@ -1,0 +1,15 @@
+.consultation__button {
+    text-align: center;
+    width: 262px;
+    height: 61px;
+    background: #4077F3;
+    color: #E4E5EA;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+    .consultation__button { 
+    display: none;
+ }
+}

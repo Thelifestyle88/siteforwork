@@ -1,0 +1,15 @@
+.consultation__card-information {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 164px;
+    font-family: Montserrat;
+}
+
+@media screen and (max-width: 720px) {
+    .consultation__card-information { 
+    display: none;
+ }
+}

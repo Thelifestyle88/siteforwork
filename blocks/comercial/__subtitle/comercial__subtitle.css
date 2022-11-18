@@ -1,0 +1,18 @@
+.comercial__subtitle {
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 48px;
+    line-height: 58.09px;
+    font-weight: 900;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@media screen and (max-width: 720px) {
+    .comercial__subtitle { 
+    font-size: 36px;
+    line-height: 44px;
+ }
+ }

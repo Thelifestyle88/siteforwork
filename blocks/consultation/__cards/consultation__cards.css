@@ -1,0 +1,16 @@
+.consultation__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: right;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin: 40px 0 60px;
+}
+
+@media screen and (max-width: 720px) {
+    .consultation__cards { 
+    text-align: center;
+    justify-content: space-evenly;
+ }
+}
